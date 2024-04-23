@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Solicitação de Filme</h1>
+    <form action="processar_solicitacao.php" method="POST">
+        <label for="nome">Nome do Filme:</label>
+        <input type="text" id="nome" name="nome" list="sugestoes">
+        <datalist id="sugestoes">
+            <option value="O Labirinto do Fauno"></option>
+            <option value="Up - Altas Aventuras"></option>
+            <option value="Senhor dos Anéis: O Retorno do Rei"></option>
+            <option value="Wall-E"></option>
+            <option value="Toy Story"></option>
+            <option value="O Rei Leão"></option>
+            <option value="Duna"></option>
+            <option value="The Batman"></option>
+            <option value="Clube de Luta"></option>
+            <option value="Interestelar"></option>
+            <option value="Matrix"></option>
+            <option value="A Viagem de Chihiro"></option>
+        </datalist>
+
+        <label for="ano">Ano de Lançamento:</label>
+        <input type="number" id="ano" name="ano" min="1900" max="2099">
+
+        <button type="submit">Enviar Solicitação</button>
+    </form>
+</body>
+</html>
