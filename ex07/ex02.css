@@ -1,25 +1,25 @@
 body {
     margin: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.container {
-    display: flex;
-}
 
-.red-box, .green-box {
+.red-box {
+    margin: 0 auto;
+    background-color: red;
     width: 700px;
-    padding: 25px;
+    padding: 0px;
+    height: 400px;
     text-align: center;
 }
 
-.red-box {
-    background-color: red;
-}
-
 .green-box {
+    margin: 0 auto;
     background-color: green;
+    height: 400px;
+    width: 700px;
+    padding: 25px;
+    text-align: center;
 }
