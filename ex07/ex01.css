@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/ex07/media/ipw.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    border: 2px solid green;
+    padding: 10px;
+    color: white;
+}
